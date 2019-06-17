@@ -2,7 +2,7 @@
 <div class="card mt-4 ml-2 mr-2">
         <div class="card-body">
             <div class="container-fluid">
-                <h1 class="sub-title">Editar Empleado</h1>
+                <h1 class="sub-title">Editar Empleado Prueba repo</h1>
                 <form method="POST" action="{{ url('dashboard/empleado/editar') }}">
                     {!! csrf_field() !!}
                     <div class="form-group">
